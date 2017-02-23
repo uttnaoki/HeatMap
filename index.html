@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>D3: Japan TopoJSON</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<style>
+    span#tooltip {
+        position: absolute;
+        z-index: 10;
+        visibility: hidden;
+        padding: 0 5px;
+        border: 1px solid #000;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 20px;
+        opacity: 0.8;
+    }
+</style>
+
+<body>
+    <div style="background-color:white;">
+        <div id=map></div>
+        <span id="tooltip">
+            <span id="text1"></span><br />
+            <span id="text2"></span>
+        </span>
+    </div>
+    <div style="background-color:rgba(115, 219, 110, 0.69);">
+        aaaaaaaa<br> aaaaaaaa
+        <br> aaaaaaaa
+        <br> aaaaaaaa
+        <br> aaaaaaaa
+        <br>
+    </div>
+    <script src="js/visualize.js"></script>
+</body>
+
+</html>
